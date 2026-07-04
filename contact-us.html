@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | National UC Realty</title>
+<meta name="description" content="Get in touch with the National UC Realty team to schedule a free consultation.">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">Contact us to set up a FREE personal webinar!</div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="index.html"><img src="images/national-uc-logo-red.png" alt="National UC Realty"></a>
+    <button class="nav-toggle" aria-label="Menu"><span></span></button>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="has-sub"><a href="what-we-do.html">What We Do</a>
+          <ul class="sub-menu">
+            <li><a href="site-selection.html">Site Selection</a></li>
+            <li><a href="site-analysis.html">Site Analysis</a></li>
+            <li><a href="site-construction.html">Site Construction</a></li>
+            <li><a href="smart-search.html">SmartSearch USA</a></li>
+          </ul>
+        </li>
+        <li><a href="our-database.html">Our Database</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li class="active"><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <h1>Contact Us</h1>
+  <p>Tell us a little about your project and one of our Medical Site Specialists will get back to you promptly.</p>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <!--
+      FORM DELIVERY SETUP (one-time):
+      This form posts to Formspree. Create a free form at https://formspree.io,
+      then replace YOUR_FORM_ID below with the ID Formspree gives you
+      (e.g. action="https://formspree.io/f/abcdwxyz").
+      Submissions will be delivered to the email address you register there —
+      no email address is ever exposed on this page.
+    -->
+    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <div class="form-row">
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="name" required autocomplete="name">
+      </div>
+      <div class="form-row">
+        <label for="company">Company</label>
+        <input type="text" id="company" name="company" autocomplete="organization">
+      </div>
+      <div class="form-row">
+        <label for="email">Your Email *</label>
+        <input type="email" id="email" name="email" required autocomplete="email">
+      </div>
+      <div class="form-row">
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" required placeholder="Tell us about your markets of interest, timelines, or questions..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-red">Send Message</button>
+      <p class="form-note">We respect your privacy. Your information is used only to respond to your inquiry.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-logo">
+        <img src="images/national-uc-white-413x88.png" alt="National UC Realty">
+        <p>201 E Kennedy Blvd Suite 1609<br>Tampa FL 33602</p>
+      </div>
+      <div>
+        <h4>What We Do</h4>
+        <ul class="footer-nav">
+          <li><a href="site-selection.html">Site Selection</a></li>
+          <li><a href="site-analysis.html">Site Analysis</a></li>
+          <li><a href="site-construction.html">Site Construction</a></li>
+          <li><a href="smart-search.html">SmartSearch USA</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul class="footer-nav">
+          <li><a href="our-database.html">Our Database</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <li><a href="https://www.medcre.com">MedCRE.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">&copy; 2026 National UC Realty. All rights reserved. &nbsp;|&nbsp; <a href="privacy-policy.html">Privacy Policy</a></div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
